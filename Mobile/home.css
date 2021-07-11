@@ -1,0 +1,230 @@
+/*navigation bar*/
+#nav{
+    padding: 1%;
+    float: right;
+   background-color: black;
+}
+.link{
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 30px;
+    background-color: black;
+    color: white;
+}
+/*image*/
+#image{
+   width: 100%;
+    height: auto;
+}
+#logo{
+    width: 60px;
+    height: 50px;
+    background-color: black;
+}
+.bg-img
+{
+    background-image: url("https://images.unsplash.com/photo-1572579488439-e290b88591e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80");
+    min-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-left: -2em;
+}
+*{
+    background-color:white; 
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    color: darkmagenta;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#para{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:maroon;
+}
+/*table*/
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-width: 3px;
+    width: 50em;
+}
+th,td{
+    padding: 10px;
+}
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Xiaomi{
+    width: 4.5em;
+    padding-left: 4.5em;
+    border-radius: 4px;
+}
+#OnePlus{
+    width:4.5em;
+    padding-left: 4.5em;
+}
+#real{
+    width:4.5em;
+    padding-left: 4.5em;
+}
+#vivo{
+    width:4.5em;
+    padding-left: 4.5em;
+}
+#sam{
+    width:4.5em;
+    padding-left: 4.5em;
+}
+#apple{
+    width:4.5em;
+    padding-left: 4.5em;
+}
+.mobs{
+    width: 15em;
+    height: 20em;
+    padding-left: 2.7em;
+    padding-bottom: 2em;
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+}
+.mobs:hover{
+    opacity: 0.3;
+}
+.thead{
+    font-size: 1.5em;
+    color: slateblue;
+}
+.mobname{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.form{
+    padding-left: 600px;
+}
+.input{
+    width: 30em;
+    height: 2em;
+    border-color: blueviolet;
+}
+.label{
+    font-size: 1.2em;
+    font-weight: bold;
+    color:maroon;
+}
+.button{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-left:25px;
+    border-radius: 8px;
+    width: 100px;
+    font-weight: bold;
+    align-items: center;
+   
+}
+.button:active{
+    background-color: blueviolet;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.textarea{
+    height: 100px;
+    width: 30em;
+    border-color: blueviolet;
+    border-width: 2px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+#foot{
+    font-size: 1.2em;
+    text-align: center;
+    background-color:blueviolet ;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 9px;
+   font-style: italic   ;
+}
+.ftr{
+    padding-left: 40em;
+}
+.speci{
+    padding-left: 3em;
+}
+.rate{
+    padding-left: 5em;
+}
+.mob {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+h1{
+    color:blueviolet;
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
+}
